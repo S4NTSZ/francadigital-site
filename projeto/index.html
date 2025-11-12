@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div clss="bg">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+</div>
+<main class="page">
+    <section class="grid">
+        <article  class="card">
+          <h2>1- Palavra Instantânea</h2>  
+          <p>Escolha uma Cor</p>
+          <input type="color" id="seletorCor" value="#000">
+          <button id="btnAplicarCor">Aplicar cor</button>
+        </article>
+        <article class="card">
+            <h2>2- Galeria Dinâmica</h2>
+            <p>Clique para alterar a imagem</p>
+            <div class="chips">
+                <button class="chip" data-image="https://unsplash.com/pt-br/fotografias/silhueta-de-arvores-e-montanha-sob-o-ceu-azul-a-noite-pq2DJBntZW0">Céu Estrelado</button>
+                <button class="chip" data-image="https://unsplash.com/pt-br/fotografias/mar-sob-lua-cheia-Qd688l1yDOI">Lua Cheia</button>
+                <button class="chip" data-image="https://unsplash.com/pt-br/fotografias/aurora-boreal-Ovn1hyBge38">Aurora Boreal</button>
+            </div>
+            <div class="galeria" id="galeriaHero"></div>
+        </article>
+    </section>
+</main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
